@@ -1,0 +1,574 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{33}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Bernoulli}{1954}]{bernoulli1954exposition}
+\begin{barticle}
+\bauthor{\bsnm{Bernoulli}, \binits{D.}}:
+\batitle{Exposition of a new theory on the measurement of risk}.
+\bjtitle{Econometrica}
+\bvolume{22}(\bissue{1}),
+\bfpage{23}--\blpage{36}
+(\byear{1954})
+\doiurl{10.2307/1909829}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Von~Neumann and
+  Morgenstern}{1947}]{von1947theory}
+\begin{bbook}
+\bauthor{\bsnm{Von~Neumann}, \binits{J.}},
+\bauthor{\bsnm{Morgenstern}, \binits{O.}}:
+\bbtitle{Theory of Games and Economic Behavior, 2nd Rev}.
+\bpublisher{Princeton University Press}, \blocation{???}
+(\byear{1947})
+\end{bbook}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Cesarini et~al.}{2017}]{cesarini2017effect}
+\begin{barticle}
+\bauthor{\bsnm{Cesarini}, \binits{D.}},
+\bauthor{\bsnm{Lindqvist}, \binits{E.}},
+\bauthor{\bsnm{Notowidigdo}, \binits{M.J.}},
+\bauthor{\bsnm{Östling}, \binits{R.}}:
+\batitle{The effect of wealth on individual and household labor supply:
+  Evidence from swedish lottery winners}.
+\bjtitle{American Economic Review}
+\bvolume{107}(\bissue{6}),
+\bfpage{1298}--\blpage{1331}
+(\byear{2017})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Vanags et~al.}{2025}]{vanags2025greater}
+\begin{barticle}
+\bauthor{\bsnm{Vanags}, \binits{E.}},
+\bauthor{\bsnm{Cutler}, \binits{J.}},
+\bauthor{\bsnm{Kosse}, \binits{F.}},
+\bauthor{\bsnm{Lockwood}, \binits{P.}}:
+\batitle{Greater income and financial well-being are associated with higher
+  prosocial preferences and behaviors across 76 countries}.
+\bjtitle{{PNAS} Nexus}
+\bvolume{4}(\bissue{1}),
+\bfpage{003}
+(\byear{2025})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Harvey and
+  Blake}{2022}]{harvey2022developmental}
+\begin{barticle}
+\bauthor{\bsnm{Harvey}, \binits{H.J.}},
+\bauthor{\bsnm{Blake}, \binits{P.R.}}:
+\batitle{Developmental risk sensitivity theory: The effects of socio-economic
+  status on children's risky gain and loss decisions}.
+\bjtitle{Proceedings of the Royal Society B}
+\bvolume{289}(\bissue{1976}),
+\bfpage{20220712}
+(\byear{2022})
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Sousa and
+  Matsuzawa}{2001}]{sousaUseTokensRewards2001}
+\begin{barticle}
+\bauthor{\bsnm{Sousa}, \binits{C.}},
+\bauthor{\bsnm{Matsuzawa}, \binits{T.}}:
+\batitle{The use of tokens as rewards and tools by chimpanzees (pan
+  troglodytes)}.
+\bjtitle{Animal Cognition}
+\bvolume{4}(\bissue{3}),
+\bfpage{213}--\blpage{221}
+(\byear{2001})
+\doiurl{10.1007/s100710100104}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2006}]{chenHowBasicAre2006a}
+\begin{barticle}
+\bauthor{\bsnm{Chen}, \binits{M.K.}},
+\bauthor{\bsnm{Lakshminarayanan}, \binits{V.}},
+\bauthor{\bsnm{Santos}, \binits{L.R.}}:
+\batitle{How basic are behavioral biases? evidence from capuchin monkey trading
+  behavior}.
+\bjtitle{Journal of Political Economy}
+\bvolume{114}(\bissue{3}),
+\bfpage{517}--\blpage{537}
+(\byear{2006})
+\doiurl{10.1086/503550}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Addessi
+  et~al.}{2020}]{addessiAreRootsHuman2020}
+\begin{barticle}
+\bauthor{\bsnm{Addessi}, \binits{E.}},
+\bauthor{\bsnm{Beran}, \binits{M.J.}},
+\bauthor{\bsnm{Bourgeois-Gironde}, \binits{S.}},
+\bauthor{\bsnm{Brosnan}, \binits{S.F.}},
+\bauthor{\bsnm{Leca}, \binits{J.-B.}}:
+\batitle{Are the roots of human economic systems shared with non-human
+  primates?}
+\bjtitle{Neuroscience \& Biobehavioral Reviews}
+\bvolume{109},
+\bfpage{1}--\blpage{15}
+(\byear{2020})
+\doiurl{10.1016/j.neubiorev.2019.12.026}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Beran and Parrish}{2021}]{beran2021non}
+\begin{barticle}
+\bauthor{\bsnm{Beran}, \binits{M.}},
+\bauthor{\bsnm{Parrish}, \binits{A.}}:
+\batitle{Non-human primate token use shows possibilities but also limitations
+  for establishing a form of currency}.
+\bjtitle{Philosophical Transactions of the Royal Society B}
+\bvolume{376}(\bissue{1818}),
+\bfpage{20200487}
+(\byear{2021})
+\doiurl{10.1098/rstb.2020.0487}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Leca and {others}}{2021}]{leca2021acquisition}
+\begin{barticle}
+\bauthor{\bsnm{Leca}, \binits{J.}}, \betal:
+\batitle{Acquisition of object-robbing and object/food-bartering behaviours: a
+  culturally maintained token economy in free-ranging long-tailed macaques}.
+\bjtitle{Philosophical Transactions of the Royal Society B}
+\bvolume{376}(\bissue{1818}),
+\bfpage{20200478}
+(\byear{2021})
+\doiurl{10.1098/rstb.2020.0478}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Seo and Lee}{2009}]{seo2009behavioral}
+\begin{barticle}
+\bauthor{\bsnm{Seo}, \binits{H.}},
+\bauthor{\bsnm{Lee}, \binits{D.}}:
+\batitle{Behavioral and neural changes after gains and losses of conditioned
+  reinforcers}.
+\bjtitle{Journal of Neuroscience}
+\bvolume{29}(\bissue{11}),
+\bfpage{3627}--\blpage{3641}
+(\byear{2009})
+\doiurl{10.1523/JNEUROSCI.4157-08.2009}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Yang
+  et~al.}{2022}]{yangPrimateAnteriorInsular2022c}
+\begin{barticle}
+\bauthor{\bsnm{Yang}, \binits{Y.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Stuphorn}, \binits{V.}}:
+\batitle{Primate anterior insular cortex represents economic decision variables
+  proposed by prospect theory}.
+\bjtitle{Nature Communications}
+\bvolume{13},
+\bfpage{717}
+(\byear{2022})
+\doiurl{10.1038/s41467-022-28359-9}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Ferro
+  et~al.}{2025}]{ferroAccumulationVirtualTokens2025a}
+\begin{botherref}
+\oauthor{\bsnm{Ferro}, \binits{D.}},
+\oauthor{\bsnm{Azab}, \binits{H.}},
+\oauthor{\bsnm{Hayden}, \binits{B.}},
+\oauthor{\bsnm{Moreno-Bote}, \binits{R.}}:
+Accumulation of virtual tokens towards a jackpot reward enhances performance
+  and value encoding in dorsal anterior cingulate cortex.
+Neuroscience
+(2025).
+\doiurl{10.1101/2025.03.03.640771} .
+\url{http://biorxiv.org/lookup/doi/10.1101/2025.03.03.640771}
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
+  Assad}{2006}]{padoa-schioppaNeuronsOrbitofrontalCortex2006b}
+\begin{barticle}
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
+\bauthor{\bsnm{Assad}, \binits{J.A.}}:
+\batitle{Neurons in the orbitofrontal cortex encode economic value}.
+\bjtitle{Nature}
+\bvolume{441}(\bissue{7090}),
+\bfpage{223}--\blpage{226}
+(\byear{2006})
+\doiurl{10.1038/nature04676}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
+  Conen}{2017}]{padoa-schioppaOrbitofrontalCortexNeural2017}
+\begin{barticle}
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
+\bauthor{\bsnm{Conen}, \binits{K.E.}}:
+\batitle{Orbitofrontal cortex: A neural circuit for economic decisions}.
+\bjtitle{Neuron}
+\bvolume{96}(\bissue{4}),
+\bfpage{736}--\blpage{754}
+(\byear{2017})
+\doiurl{10.1016/j.neuron.2017.09.031}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Rudebeck and
+  Rich}{2018}]{rudebeckOrbitofrontalCortex2018}
+\begin{barticle}
+\bauthor{\bsnm{Rudebeck}, \binits{P.H.}},
+\bauthor{\bsnm{Rich}, \binits{E.L.}}:
+\batitle{Orbitofrontal cortex}.
+\bjtitle{Current Biology}
+\bvolume{28}(\bissue{18}),
+\bfpage{1083}--\blpage{1088}
+(\byear{2018})
+\doiurl{10.1016/j.cub.2018.07.018}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Ballesta
+  et~al.}{2020}]{ballestaValuesEncodedOrbitofrontal2020a}
+\begin{barticle}
+\bauthor{\bsnm{Ballesta}, \binits{S.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Conen}, \binits{K.E.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Values encoded in orbitofrontal cortex are causally related to
+  economic choices}.
+\bjtitle{Nature}
+\bvolume{588}(\bissue{7838}),
+\bfpage{450}--\blpage{453}
+(\byear{2020})
+\doiurl{10.1038/s41586-020-2880-x}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Ballesta
+  et~al.}{2022}]{ballestaOrbitofrontalCortexContributes2022}
+\begin{barticle}
+\bauthor{\bsnm{Ballesta}, \binits{S.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Orbitofrontal cortex contributes to the comparison of values
+  underlying economic choices}.
+\bjtitle{Nature Communications}
+\bvolume{13}(\bissue{1}),
+\bfpage{4405}
+(\byear{2022})
+\doiurl{10.1038/s41467-022-32199-y}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Cai and
+  Padoa-Schioppa}{2014}]{cai2014contributions}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{X.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Contributions of orbitofrontal and lateral prefrontal cortices to
+  economic choice and the good-to-action transformation}.
+\bjtitle{Neuron}
+\bvolume{81}(\bissue{5}),
+\bfpage{1140}--\blpage{1151}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Lin and Lee}{2021}]{lin2021evidence}
+\begin{barticle}
+\bauthor{\bsnm{Lin}, \binits{Y.-L.}},
+\bauthor{\bsnm{Lee}, \binits{D.}}:
+\batitle{Evidence accumulation for value computation in the prefrontal cortex
+  during decision making}.
+\bjtitle{Proceedings of the National Academy of Sciences}
+\bvolume{118}(\bissue{11}),
+\bfpage{2020291118}
+(\byear{2021})
+\doiurl{10.1073/pnas.2020291118}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Hare
+  et~al.}{2009}]{hareSelfControlDecisionMakingInvolves2009}
+\begin{barticle}
+\bauthor{\bsnm{Hare}, \binits{T.A.}},
+\bauthor{\bsnm{Camerer}, \binits{C.F.}},
+\bauthor{\bsnm{Rangel}, \binits{A.}}:
+\batitle{Self-control in decision-making involves modulation of the {vmPFC}
+  valuation system}.
+\bjtitle{Science}
+\bvolume{324}(\bissue{5927}),
+\bfpage{646}--\blpage{648}
+(\byear{2009})
+\doiurl{10.1126/science.1168450}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{{McClure}
+  et~al.}{2004}]{mcclureSeparateNeuralSystems2004a}
+\begin{botherref}
+\oauthor{\bsnm{{McClure}}, \binits{S.M.}},
+\oauthor{\bsnm{Laibson}, \binits{D.I.}},
+\oauthor{\bsnm{Loewenstein}, \binits{G.}},
+\oauthor{\bsnm{Cohen}, \binits{J.D.}}:
+Separate neural systems value immediate and delayed monetary rewards.
+Science
+\textbf{306}
+(2004)
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Figner
+  et~al.}{2010}]{fignerLateralPrefrontalCortex2010a}
+\begin{barticle}
+\bauthor{\bsnm{Figner}, \binits{B.}},
+\bauthor{\bsnm{Knoch}, \binits{D.}},
+\bauthor{\bsnm{Johnson}, \binits{E.J.}},
+\bauthor{\bsnm{Krosch}, \binits{A.R.}},
+\bauthor{\bsnm{Lisanby}, \binits{S.H.}},
+\bauthor{\bsnm{Fehr}, \binits{E.}},
+\bauthor{\bsnm{Weber}, \binits{E.U.}}:
+\batitle{Lateral prefrontal cortex and self-control in intertemporal choice}.
+\bjtitle{Nature Neuroscience}
+\bvolume{13}(\bissue{5}),
+\bfpage{538}--\blpage{539}
+(\byear{2010})
+\doiurl{10.1038/nn.2516}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Hayden
+  et~al.}{2011}]{haydenNeuronalBasisSequential2011a}
+\begin{barticle}
+\bauthor{\bsnm{Hayden}, \binits{B.Y.}},
+\bauthor{\bsnm{Pearson}, \binits{J.M.}},
+\bauthor{\bsnm{Platt}, \binits{M.L.}}:
+\batitle{Neuronal basis of sequential foraging decisions in a patchy
+  environment}.
+\bjtitle{Nature Neuroscience}
+\bvolume{14}(\bissue{7}),
+\bfpage{933}--\blpage{939}
+(\byear{2011})
+\doiurl{10.1038/nn.2856}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Amemori and
+  Graybiel}{2012}]{amemoriLocalizedMicrostimulationPrimate2012a}
+\begin{barticle}
+\bauthor{\bsnm{Amemori}, \binits{K.-i.}},
+\bauthor{\bsnm{Graybiel}, \binits{A.M.}}:
+\batitle{Localized microstimulation of primate pregenual cingulate cortex
+  induces negative decision-making}.
+\bjtitle{Nature Neuroscience}
+\bvolume{15}(\bissue{5}),
+\bfpage{776}--\blpage{785}
+(\byear{2012})
+\doiurl{10.1038/nn.3088}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Cai and
+  Padoa-Schioppa}{2012}]{caiNeuronalEncodingSubjective2012}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{X.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Neuronal encoding of subjective value in dorsal and ventral anterior
+  cingulate cortex}.
+\bjtitle{The Journal of Neuroscience}
+\bvolume{32}(\bissue{11}),
+\bfpage{3791}--\blpage{3808}
+(\byear{2012})
+\doiurl{10.1523/JNEUROSCI.3864-11.2012}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Kennerley
+  et~al.}{2009}]{kennerleyNeuronsFrontalLobe2009b}
+\begin{barticle}
+\bauthor{\bsnm{Kennerley}, \binits{S.W.}},
+\bauthor{\bsnm{Dahmubed}, \binits{A.F.}},
+\bauthor{\bsnm{Lara}, \binits{A.H.}},
+\bauthor{\bsnm{Wallis}, \binits{J.D.}}:
+\batitle{Neurons in the frontal lobe encode the value of multiple decision
+  variables}.
+\bjtitle{Journal of Cognitive Neuroscience}
+\bvolume{21}(\bissue{6}),
+\bfpage{1162}--\blpage{1178}
+(\byear{2009})
+\doiurl{10.1162/jocn.2009.21100}
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Prévost
+  et~al.}{2010}]{prevostSeparateValuationSubsystems2010b}
+\begin{barticle}
+\bauthor{\bsnm{Prévost}, \binits{C.}},
+\bauthor{\bsnm{Pessiglione}, \binits{M.}},
+\bauthor{\bsnm{Météreau}, \binits{E.}},
+\bauthor{\bsnm{Cléry-Melin}, \binits{M.-L.}},
+\bauthor{\bsnm{Dreher}, \binits{J.-C.}}:
+\batitle{Separate valuation subsystems for delay and effort decision costs}.
+\bjtitle{The Journal of Neuroscience}
+\bvolume{30}(\bissue{42}),
+\bfpage{14080}--\blpage{14090}
+(\byear{2010})
+\doiurl{10.1523/JNEUROSCI.2752-10.2010}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Kolling
+  et~al.}{2012}]{kollingNeuralMechanismsForaging2012a}
+\begin{barticle}
+\bauthor{\bsnm{Kolling}, \binits{N.}},
+\bauthor{\bsnm{Behrens}, \binits{T.E.J.}},
+\bauthor{\bsnm{Mars}, \binits{R.B.}},
+\bauthor{\bsnm{Rushworth}, \binits{M.F.S.}}:
+\batitle{Neural mechanisms of foraging}.
+\bjtitle{Science}
+\bvolume{336}(\bissue{6077}),
+\bfpage{95}--\blpage{98}
+(\byear{2012})
+\doiurl{10.1126/science.1216930}
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Juechems
+  et~al.}{2017}]{juechemsVentromedialPrefrontalCortex2017}
+\begin{barticle}
+\bauthor{\bsnm{Juechems}, \binits{K.}},
+\bauthor{\bsnm{Balaguer}, \binits{J.}},
+\bauthor{\bsnm{Ruz}, \binits{M.}},
+\bauthor{\bsnm{Summerfield}, \binits{C.}}:
+\batitle{Ventromedial prefrontal cortex encodes a latent estimate of cumulative
+  reward}.
+\bjtitle{Neuron}
+\bvolume{93}(\bissue{3}),
+\bfpage{705}--\blpage{714}
+(\byear{2017})
+\doiurl{10.1016/j.neuron.2016.12.038}
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Nguyen and
+  {others}}{2025}]{nguyenNeuralRepresentationDecisional2025a}
+\begin{barticle}
+\bauthor{\bsnm{Nguyen}, \binits{D.}}, \betal:
+\batitle{Neural representation of the decisional reference point in monkeys}.
+\bjtitle{Proceedings of the National Academy of Sciences}
+\bvolume{122},
+\bfpage{2414538122}
+(\byear{2025})
+\doiurl{10.1073/pnas.2414538122}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Mante et~al.}{2013}]{mante2013context}
+\begin{barticle}
+\bauthor{\bsnm{Mante}, \binits{V.}},
+\bauthor{\bsnm{Sussillo}, \binits{D.}},
+\bauthor{\bsnm{Shenoy}, \binits{K.V.}},
+\bauthor{\bsnm{Newsome}, \binits{W.T.}}:
+\batitle{Context-dependent computation by recurrent dynamics in prefrontal
+  cortex}.
+\bjtitle{nature}
+\bvolume{503}(\bissue{7474}),
+\bfpage{78}--\blpage{84}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Deaner et~al.}{2005}]{deaner2005monkeys}
+\begin{barticle}
+\bauthor{\bsnm{Deaner}, \binits{R.O.}},
+\bauthor{\bsnm{Khera}, \binits{A.V.}},
+\bauthor{\bsnm{Platt}, \binits{M.L.}}:
+\batitle{Monkeys pay per view: adaptive valuation of social images by rhesus
+  macaques}.
+\bjtitle{Current biology}
+\bvolume{15}(\bissue{6}),
+\bfpage{543}--\blpage{548}
+(\byear{2005})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
