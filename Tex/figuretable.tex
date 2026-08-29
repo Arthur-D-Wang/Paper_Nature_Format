@@ -1,0 +1,55 @@
+{
+\cleardoublepage
+\newif\ifartxhasmaintables
+\newif\ifartxhasapptables
+
+\ExplSyntaxOn
+\cs_new_protected:Npn \artx_set_tables_flag:nn #1#2
+	{
+		\file_if_exist:nT {#1}
+			{
+				\tl_clear:N \l_tmpa_tl
+				\file_get:nnN {#1} {} \l_tmpa_tl
+				\tl_if_in:VnT \l_tmpa_tl {\contentsline}
+					{#2}
+			}
+	}
+\artx_set_tables_flag:nn {\jobname.lot} {\artxhasmaintablestrue}
+\artx_set_tables_flag:nn {\jobname.loapptab} {\artxhasapptablestrue}
+\ExplSyntaxOff
+
+{
+\let\clearpage\relax  % Do nothing when a \clearpage command appears 
+\let\cleardoublepage\relax
+
+\renewcommand*{\addvspace}[1]{}
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\figurename~\oldnumberline}%
+
+\listoffigures
+\let\clearpage\relax  % Do nothing when a \clearpage command appears 
+\let\cleardoublepage\relax
+\renewcommand{\numberline}{\appfigname~\oldnumberline}%
+\vspace{-30pt}
+\listofappfigs
+}
+{
+
+\let\clearpage\relax  % Do nothing when a \clearpage command appears 
+\let\cleardoublepage\relax
+\renewcommand*{\addvspace}[1]{}
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\tablename~\oldnumberline}%
+\ifartxhasmaintables
+\listoftables
+\fi
+
+\ifartxhasapptables
+\renewcommand{\numberline}{\apptabname~\oldnumberline}%
+\vspace{-30pt}
+\listofapptabs
+\fi
+}
+
+
+}

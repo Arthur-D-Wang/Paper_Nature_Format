@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.16)  24 AUG 2026 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.16)  27 AUG 2026 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,31 +726,49 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count330
 \@thisrulewidth=\dimen264
 )
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2026/02/16 line numbers on paragraphs v5.7
+\linenopenalty=\count331
+\output=\toks35
+\linenoprevgraf=\count332
+\linenumbersep=\dimen265
+\linenumberwidth=\dimen266
+\c@linenumber=\count333
+\c@pagewiselinenumber=\count334
+\c@LN@truepage=\count335
+\c@internallinenumber=\count336
+\c@internallinenumbers=\count337
+\quotelinenumbersep=\dimen267
+\bframerule=\dimen268
+\bframesep=\dimen269
+\bframebox=\box74
+\@LN@amsmath@ams@eqpen=\count338
+)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count331
+\l__color_backend_stack_int=\count339
 )
 (./sn-article.aux)
 \openout1 = `sn-article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -761,14 +779,14 @@ LaTeX Font Info:    ... okay on input line 19.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 17.07164pt
 * modes: twoside 
-* h-part:(L,W,R)=(83.37448pt, 372.0pt, 125.06175pt)
-* v-part:(T,H,B)=(73.97716pt, 552.69478pt, 218.37491pt)
+* h-part:(L,W,R)=(40.97195pt, 478.00629pt, 61.458pt)
+* v-part:(T,H,B)=(73.97716pt, 676.03749pt, 95.0322pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=372.0pt
-* \textheight=552.69478pt
-* \oddsidemargin=28.17613pt
-* \evensidemargin=52.79176pt
+* \textwidth=478.00629pt
+* \textheight=676.03749pt
+* \oddsidemargin=-14.2264pt
+* \evensidemargin=-10.812pt
 * \topmargin=-19.72638pt
 * \headheight=5.5pt
 * \headsep=15.93355pt
@@ -789,17 +807,17 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
-\scratchdimen=\dimen265
-\scratchbox=\box74
-\nofMPsegments=\count333
-\nofMParguments=\count334
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count335
-\MPscratchDim=\dimen266
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count340
+\scratchdimen=\dimen270
+\scratchbox=\box75
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen271
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -809,32 +827,32 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \S on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 19.
+LaTeX Info: Redefining \S on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 19.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/msa/m/n on input line 19.
-Package hyperref Info: Link coloring ON on input line 19.
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 31.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (./sn-article.out) (./sn-article.out)
 \@outlinefile=\write3
 \openout3 = `sn-article.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 58
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -842,15 +860,15 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 44.
+(Font)              size <8> substituted on input line 58.
 
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 44
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 58
 .
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 44.
+(Font)              size <6> substituted on input line 58.
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 44
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 58
 .
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -858,101 +876,111 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Figure1.pdf, id=192, 728.7225pt x 477.42967pt>
-File: Figure1.pdf Graphic file (type pdf)
-<use Figure1.pdf>
-Package pdftex.def Info: Figure1.pdf  used on input line 57.
-(pdftex.def)             Requested size: 372.0pt x 243.71902pt.
+<BHV.pdf, id=199, 511.04828pt x 475.4011pt>
+File: BHV.pdf Graphic file (type pdf)
+<use BHV.pdf>
+Package pdftex.def Info: BHV.pdf  used on input line 71.
+(pdftex.def)             Requested size: 478.00629pt x 444.67184pt.
+<ResourceStateTuning.pdf, id=206, 718.685pt x 472.84956pt>
+File: ResourceStateTuning.pdf Graphic file (type pdf)
+<use ResourceStateTuning.pdf>
+Package pdftex.def Info: ResourceStateTuning.pdf  used on input line 102.
+(pdftex.def)             Requested size: 478.00629pt x 314.50594pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./Figure1.pdf>]
-<Figure2.pdf, id=528, 315.1775pt x 491.8375pt>
-File: Figure2.pdf Graphic file (type pdf)
-<use Figure2.pdf>
-Package pdftex.def Info: Figure2.pdf  used on input line 76.
-(pdftex.def)             Requested size: 372.0pt x 580.54332pt.
+ [3 <./BHV.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./ResourceStateTuning.pdf>]
+<ResourceStateDynamics.pdf, id=598, 1240.75545pt x 1421.69144pt>
+File: ResourceStateDynamics.pdf Graphic file (type pdf)
+<use ResourceStateDynamics.pdf>
+Package pdftex.def Info: ResourceStateDynamics.pdf  used on input line 120.
+(pdftex.def)             Requested size: 406.30826pt x 465.55855pt.
 
 
-LaTeX Warning: Float too large for page by 202.6541pt on input line 79.
+LaTeX Warning: Float too large for page by 0.77106pt on input line 123.
 
-<Figure3_1.pdf, id=535, 718.685pt x 472.84956pt>
-File: Figure3_1.pdf Graphic file (type pdf)
-<use Figure3_1.pdf>
-Package pdftex.def Info: Figure3_1.pdf  used on input line 86.
-(pdftex.def)             Requested size: 260.39886pt x 171.32962pt.
+<ValueModulation.pdf, id=602, 600.95819pt x 431.11063pt>
+File: ValueModulation.pdf Graphic file (type pdf)
+<use ValueModulation.pdf>
+Package pdftex.def Info: ValueModulation.pdf  used on input line 132.
+(pdftex.def)             Requested size: 478.00629pt x 342.9155pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./Figure2.pdf>]
-<Figure3_2.pdf, id=6076, 546.04pt x 450.68375pt>
-File: Figure3_2.pdf Graphic file (type pdf)
-<use Figure3_2.pdf>
-Package pdftex.def Info: Figure3_2.pdf  used on input line 96.
-(pdftex.def)             Requested size: 372.0pt x 307.03854pt.
-
+ [6 <./ResourceStateDynamics.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./Figure3_1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [7 <./ValueModulation.pdf>]
+<ChosenValue.pdf, id=908, 382.69476pt x 471.29576pt>
+File: ChosenValue.pdf Graphic file (type pdf)
+<use ChosenValue.pdf>
+Package pdftex.def Info: ChosenValue.pdf  used on input line 150.
+(pdftex.def)             Requested size: 382.40648pt x 470.94221pt.
 
- [7 <./Figure3_2.pdf>]
-<Figure4.pdf, id=6133, 600.95819pt x 431.11063pt>
-File: Figure4.pdf Graphic file (type pdf)
-<use Figure4.pdf>
-Package pdftex.def Info: Figure4.pdf  used on input line 110.
-(pdftex.def)             Requested size: 279.0pt x 200.1486pt.
+
+LaTeX Warning: Float too large for page by 8.15472pt on input line 153.
+
+<Choice.pdf, id=920, 315.1775pt x 491.8375pt>
+File: Choice.pdf Graphic file (type pdf)
+<use Choice.pdf>
+Package pdftex.def Info: Choice.pdf  used on input line 168.
+(pdftex.def)             Requested size: 344.1651pt x 537.1054pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./Figure4.pdf>]
-<Figure5.pdf, id=6172, 382.69476pt x 471.29576pt>
-File: Figure5.pdf Graphic file (type pdf)
-<use Figure5.pdf>
-Package pdftex.def Info: Figure5.pdf  used on input line 128.
-(pdftex.def)             Requested size: 267.84045pt x 329.85443pt.
+ [9 <./ChosenValue.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Choice.pdf>]
+Underfull \hbox (badness 1715) in paragraph at lines 180--181
+[]\OT1/cmr/bx/n/10.03749 [TODO: review inter-pre-ta-tion.] \OT1/cmr/m/n/10 The 
+dis-tri-bu-tion of pre-ferred token hold-ings was U-shaped
+ []
 
 
-LaTeX Warning: Float too large for page by 54.90965pt on input line 131.
+Underfull \hbox (badness 1038) in paragraph at lines 180--181
+\OT1/cmr/m/n/10 est and high-est token ranges than inter-me-di-ate val-ues (Fig
+. [][]2[][]E; Extended Data Fig. Extend-ed-Fig-
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./Figure5.pdf>]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 244.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 244.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 244.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 194.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 194.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 194.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
@@ -962,81 +990,53 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 303.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 303.
+(hyperref)                removing `\Delta' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 303.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 310.
+(hyperref)                removing `math shift' on input line 355.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 310.
+(hyperref)                removing `math shift' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 310.
+(hyperref)                removing `subscript' on input line 362.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 362.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 341.
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 341--342
- []\OT1/cmr/bx/n/10.03749 Supplementary infor-ma-tion.[][] \OT1/cmr/m/n/10 Sup-
-ple-men-tary infor-ma-tion accom-pa-nies this
- []
-
+ [18]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 345.
+(hyperref)                than one, level fixed on input line 377.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 381.
 
 (./sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
+ [19{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
 nc}]
-Underfull \hbox (badness 2302) in paragraph at lines 187--197
-[]\OT1/cmr/m/n/10 Leca, J., \OT1/cmr/m/it/10.03749 et al.\OT1/cmr/m/n/10 : Acqu
-i-si-tion of object-robbing and object/food-bartering
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [20])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
+ [21]
 (./sn-article.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1048,16 +1048,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47939pt have occurred.
 
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: 6C5ADFCB8ABEFAF730C13FA5EE4B522D;6953.
+(rerunfilecheck)             Checksum: 65BE352EF4791A8AA6C8009D4CA289A8;7468.
  ) 
 Here is how much of TeX's memory you used:
- 12676 strings out of 467525
- 196459 string characters out of 5418982
- 640215 words of memory out of 5000000
- 41255 multiletter control sequences out of 15000+600000
- 653247 words of font info for 138 fonts, out of 8000000 for 9000
+ 12913 strings out of 467525
+ 200340 string characters out of 5418982
+ 658960 words of memory out of 5000000
+ 41495 multiletter control sequences out of 15000+600000
+ 653545 words of font info for 139 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,12n,93p,3195b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,3194b,684s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/STIXGeneral-Itali
 c.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/STIXGeneral-R
 egular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -1074,22 +1074,23 @@ sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
 /local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
 ocal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
 al/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/202
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on sn-article.pdf (26 pages, 25946018 bytes).
+/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on sn-article.pdf (21 pages, 25908157 bytes).
 PDF statistics:
- 6567 PDF objects out of 7423 (max. 8388607)
- 3362 compressed objects within 34 object streams
- 128 named destinations out of 1000 (max. 500000)
+ 6826 PDF objects out of 7423 (max. 8388607)
+ 3493 compressed objects within 35 object streams
+ 121 named destinations out of 1000 (max. 500000)
  343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

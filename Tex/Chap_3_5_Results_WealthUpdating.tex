@@ -1,0 +1,31 @@
+\section{财富状态的更新}\label{chap3_5:results_wealth_updating}
+
+单神经元分析发现前额叶皮层表征财富状态，但未揭示这一表征的时间动态。为回答这一问题，我们考察了财富表征的跨时间泛化性：在每个时刻独立训练财富的TDR编码轴，然后计算其对所有其他时刻财富信息解释力（以$R^2$衡量，图~\ref{fig4_4:crossdecoding}）。结果显示，财富在选项出现之前即有显著编码，这与钱包在试次间隔期间持续可见的设计一致。不同阶段的泛化模式呈现明显差异：在选项出现的时间窗口内（左上），显著的$R^2$主要沿对角线分布，非对角线区域较弱，表明选项评估与决策形成时刻财富的群体表征持续动态演化；而在钱包更新的时间窗口内（右下），在对角线以外的编码同样显著，表明这一阶段的财富表征更为稳定。跨时间窗口（右上和左下）的TDR轴解释力虽然高于随机水平，但低于两个时间窗内部，表明两个时间窗的群体编码存在差异。我们进一步按选项呈现窗口内部、钱包更新窗口内部及跨窗口区域分别比较不同脑区的财富表征动态（图~\ref{fig4_5:crossdecodingstats}，Wilcoxon符号秩检验）。结果显示，在选项呈现的时间窗口内，ACC的$R^2$显著高于DLPFC和OFC。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figure4_4_TokenCrossDecoding}
+    \bicaption{\enspace 财富表征的跨时间泛化}{\enspace Cross-temporal generalization of wealth representations}
+    \label{fig4_4:crossdecoding}
+\end{figure}
+\fignotetext{矩阵的每个单元格表示以一个时刻训练的TDR财富轴预测另一时刻财富信息所得到的$R^2$。横轴为训练时刻，纵轴为测试时刻，均覆盖选项呈现期（$[-200,500]$~毫秒）和钱包更新期（$[-200,300]$~毫秒），时间分辨率50~毫秒。白色实线分隔两个任务时段，各时段内的白色虚线标示事件零点（选项呈现和钱包更新时刻）。第一行为三只猕猴的聚合数据，第二至四行分别为猕猴W、U、T的数据；三列对应ACC、DLPFC和OFC。颜色图例标示$R^2$的值，黑色单元格表示未显著超过打乱控制（配对Wilcoxon秩和检验，$p > 0.05$）。}{Each entry shows the $R^2$ obtained by applying a TDR wealth axis trained at one time point to predict wealth information at another time point. Both axes cover the offer period ($[-200,500]$~ms) and the token update period ($[-200,300]$~ms) at 50~ms resolution. White solid lines separate the two task epochs; white dashed lines mark the event onset within each epoch. Row 1 shows pooled data; rows 2-4 show data for Monkey W, U, and T. Columns correspond to ACC, DLPFC, and OFC. The color bar encodes the $R^2$ values and black color indicates entries that do not significantly exceed the shuffle control (paired Wilcoxon rank-sum test, $p > 0.05$).}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figure4_5_TokenCrossDecodingStats}
+    \bicaption{\enspace 财富表征的跨脑区比较}{\enspace Cross-region comparison of wealth representations}
+    \label{fig4_5:crossdecodingstats}
+\end{figure}
+\fignotetext{对图~\ref{fig4_4:crossdecoding}的跨时间矩阵按区域划分后进行脑区间配对比较。第一行为聚合数据，第二至四行分别为猕猴W、U、T的数据；三列依次为ACC vs.\ DLPFC、ACC vs.\ OFC、DLPFC vs.\ OFC。每对脑区的矩阵按对齐事件划分为四个区域：左上为选项呈现窗口内部，右下为钱包更新窗口内部，右上和左下为跨窗口区域。每个区域以$R^2$更高脑区的颜色标注（ACC：红色、DLPFC：绿色、OFC：蓝色），饱和色表示差异显著（Wilcoxon符号秩检验，$p < 0.05$），浅色表示不显著；各区域内标注的数字为对应检验的$p$值。}{Pairwise cross-region comparisons of the cross-temporal generalization matrices from Figure~\ref{fig4_4:crossdecoding}. Row 1 shows pooled data; rows 2–4 show data for Monkey W, U, and T. Columns show comparisons between ACC vs.\ DLPFC, ACC vs.\ OFC, and DLPFC vs.\ OFC. Each matrix is divided into four quadrants by task epoch: upper-left (within offer period), lower-right (within token update period), and the two off-diagonal quadrants (cross-epoch). Each quadrant is colored according to the area with higher $R^2$ (ACC in red, DLPFC in green, OFC in blue); Saturated colors indicate significant differences (Wilcoxon signed-rank test, $p < 0.05$) and pale colors indicate non-significant differences; numbers within each quadrant indicate the $p$-value of the corresponding test.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Figure4_6_Update}
+    \bicaption{\enspace 钱包更新期间的财富状态追踪}{\enspace Neural tracking of wealth states during token update}
+    \label{fig4_6:update}
+\end{figure}
+\fignotetext{图中展示六组数据：左列为聚合数据（上）、打乱选择标签的聚合数据（中）、打乱财富水平标签的聚合数据（下），右列为猕猴W、U、T的个体数据（上、中、下）。每组数据内包含上下两行：第一行为群体神经活动在TDR选择–财富空间中的轨迹（钱包更新前$-100$至更新后$200$~毫秒），红色和绿色分别表示赚取和消费试次，颜色深浅表示财富水平（深色表示低财富，浅色表示高财富，共5组：[1]、[2–3]、[4–7]、[8–15]、[16–24]），圆形和三角形标记分别标示赚取和消费试次在钱包更新前100~毫秒的神经状态；第二行为财富轴投影斜率的分布直方图，红色为赚取试次，绿色为消费试次，箭头标注分布中位数，正斜率表示群体活动朝更高财富方向移动，负斜率表示朝更低财富方向移动。聚合数据中，ACC和OFC的赚取斜率显著大于零、消费斜率显著小于零（ACC：$p_{\mathrm{earn}} = 1.7\times10^{-15}$，$p_{\mathrm{spend}} = 1.1\times10^{-6}$；OFC：$p_{\mathrm{earn}} = 2.0\times10^{-18}$，$p_{\mathrm{spend}} = 6.5\times10^{-13}$；单侧Wilcoxon符号秩检验）；DLPFC消费斜率与零无显著差异（$p_{\mathrm{earn}} = 1.2\times10^{-3}$，$p_{\mathrm{spend}} = 2.3\times10^{-1}$）。打乱选择标签或财富水平标签后，上述偏移均消失。}{Six panels are arranged in a $3\times2$ grid: the left column shows pooled data (top), pooled data with shuffled choice labels (middle), and pooled data with shuffled wealth labels (bottom); the right column shows data for Monkey W, U, and T (top to bottom). Each panel contains two rows: the upper row shows group-averaged neural trajectories projected onto the TDR-derived choice-wealth space ($-100$ to $200$~ms aligned to wallet update onset). Red and green indicate earning and spending trials, respectively; color lightness encodes wealth level (darker = lower wealth; 5 groups: [1], [2–3], [4–7], [8–15], [16–24]). Circles and triangles mark the neural state at $-100$~ms for earn and spend trials, respectively. The lower row shows the distribution of slope of the wealth-axis projection over time; Colors indicate choices: red for earning trials, green for spending trials, with triangles marking the median. Positive slopes indicate movement toward higher wealth; negative slopes indicate movement toward lower wealth. In the pooled data, ACC and OFC showed positive slopes in earning trials and negative slopes in spending trials (ACC: $p_{\mathrm{earn}} = 1.7\times10^{-15}$, $p_{\mathrm{spend}} = 1.1\times10^{-6}$; OFC: $p_{\mathrm{earn}} = 2.0\times10^{-18}$, $p_{\mathrm{spend}} = 6.5\times10^{-13}$; one-sided Wilcoxon signed-rank test). DLPFC showed no significant spending slope ($p_{\mathrm{earn}} = 1.2\times10^{-3}$, $p_{\mathrm{spend}} = 2.3\times10^{-1}$). These directional shifts disappeared after shuffling either choice labels or wealth labels.}
+
+上述分析刻画了财富编码的时间结构与脑区差异，但未直接检验群体活动是否随财富的动态变化而实时更新——赚取使代币数增加，消费使代币数减少，神经活动是否追踪了这一方向性变化？为此，我们将钱包更新阶段（$[-100,200]$毫秒）的神经活动投影至TDR导出的选择–财富空间（图~\ref{fig4_6:update}）。ACC和OFC的神经轨迹呈现出选择依赖的方向性偏移：赚取试次中，群体活动朝向更高财富方向移动；消费试次中，群体活动朝向更低财富方向移动。为量化这一偏移，我们对每次交叉验证分别拟合赚取和消费试次中财富轴投影随时间的线性斜率（正斜率表示朝更高财富方向移动，负斜率表示朝更低财富方向移动）。结果显示，ACC和OFC中赚取试次的斜率显著大于零、消费试次的斜率显著小于零（单侧Wilcoxon符号秩检验，见图注）；DLPFC的消费试次斜率与零无显著差异。打乱选择标签或财富水平标签后，上述方向性偏移均消失，表明该信号同时依赖于选择和财富水平。
+
+综上，前额叶并非只维持了静态的财富表征，而是随着实验进程动态更新。三个脑区在这一过程中存在功能差异：ACC在选项呈现阶段对财富的表征最为突出，且与OFC均在每次代币更新时追踪财富状态的变化；DLPFC虽然也编码了财富水平，但并未参与财富的动态更新。

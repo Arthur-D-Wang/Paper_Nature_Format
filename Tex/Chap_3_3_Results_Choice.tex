@@ -1,0 +1,53 @@
+\section{物品域与动作域的选择表征}\label{chap3_3:results_choice}
+
+本任务中的每次选择可同时从两个维度描述——所选的是赚取还是消费（物品域），以及反应是向左还是向右（动作域）。这两个维度的信息在单神经元水平上可以分离：图~\ref{fig3_1:example_neuron}A展示的示例OFC神经元选择性编码物品域，偏好消费选项，但对选项的空间位置不敏感；图~\ref{fig3_1:example_neuron}B展示的示例DLPFC神经元则选择性编码动作域，偏好右侧选项，但对物品属性不敏感。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figure3_1_ExampleNeuron}
+    \bicaption{\enspace 编码选择的示例神经元}{\enspace Representative neurons encoding choices}
+    \label{fig3_1:example_neuron}
+\end{figure}
+\fignotetext{\textbf{(A) 编码物品域选择的示例OFC神经元}. 该神经元在选项呈现（左，$[-200, 500]$~毫秒）、钱包更新（中，$[-200, 300]$~毫秒）和选择切换（右，$[-500, 500]$~毫秒）三个时刻的放电率（均值$\pm$标准误）。反应按赚取（红色）/消费（绿色）与左侧（实线）/右侧（虚线）分为四组。切换时刻的反应按切换后的选择进行分组。\\\textbf{(B) 编码动作域选择的示例DLPFC神经元}. 布局同(A)。}{\textbf{(A) A representative OFC neuron encoding good-domain choice.} Firing rate (mean $\pm$ SEM) aligned to three task events: offer onset (left, $[-200, 500]$~ms), wallet update (middle, $[-200, 300]$~ms), and switch choice (right, $[-500, 500]$~ms). Trials were grouped into four conditions: earn (red) vs.\ spend (green) $\times$ leftward (solid) vs.\ rightward (dashed) response. Switch-aligned responses were grouped by the choice made after the switch. \\\textbf{(B) A representative DLPFC neuron encoding action-domain choice.} Layout as in (A).}
+
+为在群体水平检验这种分离的普遍性，我们将每个神经元在选项呈现后$0$–$500$~毫秒的平均放电率对两种选择维度进行回归，提取物品域（$|\beta_{ES}|$）和动作域（$|\beta_{LR}|$）的编码强度。结果显示，OFC和ACC的神经元整体偏向物品域，DLPFC的神经元整体偏向动作域（图~\ref{fig3_2:scatter}）。相当数量的神经元同时编码两个域，但两种编码系数之间仅存在微弱的Spearman秩相关，表明两种编码并非由两群完全分离的神经元承担（否则应观察到负相关），也非由同一群神经元共同完成（否则应观察到较强的正相关），而是作为两个近似独立的维度共存于前额叶神经元群体中。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figure3_2_Scatter}
+    \bicaption{\enspace 单神经元选择编码}{\enspace Single-unit choice selectivity}
+    \label{fig3_2:scatter}
+\end{figure}
+\fignotetext{第一行为三只猕猴的聚合数据，第二至四行分别为猕猴W、U、T的数据；每列对应一个脑区（ACC、DLPFC、OFC）。每个点代表一个神经元，横轴和纵轴分别为物品域（$|\beta_{ES}|$）和动作域（$|\beta_{LR}|$）回归系数的绝对值。点的颜色标示显著性（$p < 0.05$）：红色（仅ES显著）、蓝色（仅LR显著）、紫色（两者均显著）、灰色（两者均不显著）。沿反对角方向排列的直方图展示神经元群体中$|\beta_{LR}| - |\beta_{ES}|$的分布，向左上方偏移表示群体整体偏向动作域编码。红线标示分布中位数：实线表示二项检验显著（$p < 0.05$），虚线表示不显著。聚合数据中，二项检验表明ACC和OFC偏向物品域（$p = 1.96 \times 10^{-14}$ 和 $p = 9.73 \times 10^{-18}$），DLPFC偏向动作域（$p = 9.83 \times 10^{-4}$）；Spearman秩相关仅检出两种编码维度之间的微弱相关性（ACC：$r = 0.04$，$p = 0.265$；DLPFC：$r = 0.09$，$p = 0.003$；OFC：$r = 0.09$，$p = 0.010$）。个体数据的分析结果与聚合数据的结论趋势一致。本实验共记录到ACC神经元679个（猕猴W：247；猕猴T：432；猕猴U无ACC记录）、DLPFC神经元1056个（猕猴W：127；猕猴U：491；猕猴T：438）、OFC神经元903个（猕猴W：111；猕猴U：446；猕猴T：346）（下同）。}{Row 1 shows data pooled across all three monkeys; rows 2–4 show data for Monkey W, U, and T, respectively. Each column corresponds to one brain area (ACC, DLPFC, OFC). Each point represents one neuron, with the x- and y-axes showing the absolute regression coefficients for the good domain ($|\beta_{ES}|$) and action domain ($|\beta_{LR}|$), respectively. Point color indicates significance ($p < 0.05$): red (ES only), blue (LR only), purple (both), gray (neither). The histogram along the anti-diagonal axis shows the distribution of $|\beta_{LR}| - |\beta_{ES}|$ across neurons; a shift toward the upper left indicates a population-level bias toward action-domain encoding. The red line marks the median: solid if the binomial test is significant ($p < 0.05$), dashed otherwise. In the pooled data, binomial tests indicated that ACC and OFC were biased toward the good domain ($p = 1.96 \times 10^{-14}$ and $p = 9.73 \times 10^{-18}$, respectively) and DLPFC toward the action domain ($p = 9.83 \times 10^{-4}$); Spearman rank correlations revealed only weak associations between the two encoding dimensions (ACC: $r = 0.04$, $p = 0.265$; DLPFC: $r = 0.09$, $p = 0.003$; OFC: $r = 0.09$, $p = 0.010$). Results from individual monkeys were consistent with the pooled data. A total of 679 ACC neurons (Monkey W: 247; Monkey T: 432; no ACC recording in Monkey U), 1056 DLPFC neurons (Monkey W: 127; Monkey U: 491; Monkey T: 438), and 903 OFC neurons (Monkey W: 111; Monkey U: 446; Monkey T: 346) were recorded (same for all subsequent figures).}
+
+我们进一步在群体水平检验两种选择信号的编码模式。由于选择行为天然与选项价值、当前财富等变量存在关联，单神经元回归难以排除这些混淆因素。为此，我们采用TDR方法（第~\ref{chap2:methods_neural_TDR}~节），通过正交化提取与选择相关的群体编码轴。TDR投影将每组试次的平均群体活动表示为选择空间中的一条轨迹（图~\ref{fig3_3:trajectory}）。选项出现前（$-200$~毫秒），所有条件平均轨迹均聚集于原点附近；选项出现后，轨迹沿不同方向分离。各子图的横纵轴范围统一，因此可直接比较不同脑区在两个轴上的分离程度：OFC和ACC的轨迹在横轴（物品轴）上分离更明显，而DLPFC的轨迹在纵轴（动作轴）上分离更明显。这与单神经元分析的结果一致。
+
+为量化图~\ref{fig3_3:trajectory}中各脑区的编码强度随时间的变化，我们计算了每个试次在TDR物品轴和动作轴上的投影值与对应选择标签之间的$R^2$（图~\ref{fig3_4:rsquared}）。此处采用$R^2$而非解码正确率，以便与后续涉及连续变量的分析保持统一的相关框架。OFC和ACC的物品轴编码强度在选项呈现后迅速上升，动作轴编码相对较弱；DLPFC则相反，动作轴编码明显强于物品轴。
+
+为进一步检验两类选择信号是序列涌现还是并行计算，我们计算并比较了各脑区物品轴（ES）与动作轴（LR）的编码强度（$R^2$）的信号潜伏期（onset latency，图~\ref{fig3_5:latency}；详见~\ref{chap2:methods_neural_TDR}~节）。结果显示，OFC聚合数据中物品域信号显著早于动作域信号，DLPFC则呈现相反的模式：聚合数据及猕猴T中动作域信号显著早于物品域信号；两个脑区的方向互补，与前述$R^2$及单神经元分析的结论一致。同时，若物品域与动作域信号经由串行传递产生——即一类信号的计算以另一类为前提——则应观察到OFC物品域与DLPFC动作域信号之间存在稳定的潜伏期差异；反之，若二者在不同脑区独立并行计算，则不应出现一致的先后顺序。为此，我们对每列内DLPFC动作域与OFC物品域的起始潜伏期进行了检验，并未发现统一的时序差异，说明两类信号并无明显的先后之分，支持并行计算的假设。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figure3_3_Trajectory}
+    \bicaption{\enspace 选择空间中的神经轨迹}{\enspace Neural trajectories in the choice space}
+    \label{fig3_3:trajectory}
+\end{figure}
+\fignotetext{利用TDR将群体活动投影至物品域（ES，横轴）和动作域（LR，纵轴）编码轴，时间窗口为选项呈现前200~毫秒至呈现后500~毫秒。圆形标记标示每条轨迹的起始点（$-200$~毫秒）。第一行为三只猕猴的聚合数据，第二至四行分别为猕猴W、U、T的数据；每列对应一个脑区（ACC、DLPFC、OFC）。曲线为各组试次的条件平均轨迹，阴影区域表示试次间的标准差。红色和绿色曲线分别表示赚取和消费选择，实线和虚线分别表示左侧和右侧选择。各子图横纵轴范围统一以便跨脑区比较。图中聚合数据每个脑区无放回随机抽取300个神经元，个体数据抽取100个神经元（下同）。}{Population activity was projected onto good-domain (ES, x-axis) and action-domain (LR, y-axis) TDR axes over the window $-200$ to $500$~ms relative to offer onset. Filled circles mark the trajectory starting point ($-200$~ms). Row 1 shows data pooled across all three monkeys; rows 2–4 show data for Monkey W, U, and T, respectively. Each column corresponds to one brain area (ACC, DLPFC, OFC). Curves show condition-averaged trajectories; shaded regions indicate the standard deviation across trials. Red and green curves indicate earning and spending choices, respectively; solid and dashed lines indicate leftward and rightward responses. For the pooled data, 300 neurons were randomly sampled without replacement per brain area; for individual data, 100 neurons were sampled per brain area (same for all subsequent similar figures).}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figure3_4_R_squared}
+    \bicaption{\enspace 选择信号编码强度}{\enspace Encoding strength of choice signals}
+    \label{fig3_4:rsquared}
+\end{figure}
+\fignotetext{物品轴（ES，黄色）和动作轴（LR，蓝色）选择的编码强度（$R^2$，群体投影值与选择标签的平方皮尔逊相关系数）随时间的变化。第一行为聚合数据，纵轴统一限定在0–1以便跨脑区比较；第二至四行分别为猕猴W、U、T的数据，纵轴范围依各子图数据自适应调整，以便比较同一子图内物品轴与动作轴编码强度。阴影区域为100次交叉验证的标准差（见第~\ref{chap2:methods_neural_TDR}~节）。聚合分析中，ACC和OFC的物品轴编码强度高于动作轴，DLPFC的动作轴编码强度高于物品轴。个体分析的结果与聚合数据趋势相同}{Encoding strength ($R^2$, squared Pearson correlation between population projections and choice labels) for the good-domain choices (ES, yellow) and action-domain choices (LR, blue) as a function of time. Row 1 shows pooled data with the y-axis fixed at 0–1 for cross-area comparison; rows 2–4 show data for Monkey W, U, and T with adaptive y-axis scaling to highlight within-panel differences between the two axes. Shaded regions show the standard deviation across 100 bootstrap iterations (see Section~\ref{chap2:methods_neural_TDR}). In the pooled analysis, ACC and OFC showed stronger good-domain than action-domain encoding, while DLPFC showed the reverse. Individual results were consistent with the pooled data.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figure3_5_Time}
+    \bicaption{\enspace 选择信号的起始潜伏期比较}{\enspace Onset latency of choice signals across brain areas}
+    \label{fig3_5:latency}
+\end{figure}
+\fignotetext{布局为3行（ACC、DLPFC、OFC）$\times$ 4列（聚合数据及猕猴W、U、T）。每个子图中，第一行为物品域（ES，黄绿色）的起始潜伏期分布，第二行为动作域（LR，蓝色）的起始潜伏期分布；小提琴图的面积与有效试次数成正比，黑色线段和实心圆点分别标注四分位距和中位数。起始潜伏期定义为首次超过阈值且持续时长不低于50ms的时刻；未检测到显著激活则不计入分布。子图内$p$值为物品域与动作域起始潜伏期的Wilcoxon秩和检验结果：不显著时以黑色标注，显著时以起始更早的信号颜色标注。OFC子图上方$p$值为同列内DLPFC动作域与OFC物品域起始潜伏期的跨脑区Wilcoxon秩和检验结果。}{Layout: 3 rows (ACC, DLPFC, OFC) $\times$ 4 columns (pooled data and Monkey W, U, T). In each panel, the first row shows the good-domain (ES, yellow-green) onset latency distribution and the second row shows the action-domain (LR, blue) onset latency distribution; violin area is proportional to the number of valid cross validations, and the black line segment and open circle indicate the interquartile range and median. Onset latency is defined as the first time point after stimulus onset at which $R^2$ exceeded the 95th percentile of the pre-stimulus baseline ($-200$ to $0$~ms) for at least 50 ms; cross validations without a detected onset are excluded from the distribution. Within-panel $p$-values reflect Wilcoxon rank-sum tests comparing good-domain and action-domain onset latencies: non-significant results are shown in black, and significant results are colored according to the earlier-emerging signal. The $p$-value above each OFC panel reflects a cross-area Wilcoxon rank-sum test comparing DLPFC action-domain and OFC good-domain onset latencies within the same column.}
+
+综上，前额叶三个亚区在表征选择信息时存在一定的功能分离：OFC和ACC主要编码物品维度的选择（赚取或消费），而DLPFC主要编码动作维度的选择（向左或向右）。这一结论在单神经元和群体水平均得到支持。物品域与动作域编码在单个神经元层面近似独立共存，表明二者并非同一信号的不同侧面，而是前额叶并行处理的两个维度。起始潜伏期分析进一步表明两种维度的选择信号之间并不存在一致的先后关系，更有可能是并行加工而非序列计算。

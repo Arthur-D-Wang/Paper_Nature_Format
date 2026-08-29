@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{33}
+\begin{thebibliography}{26}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -57,65 +57,6 @@
 \endbibitem
 
 %%% 2
-\bibitem[\protect\citeauthoryear{Von~Neumann and
-  Morgenstern}{1947}]{von1947theory}
-\begin{bbook}
-\bauthor{\bsnm{Von~Neumann}, \binits{J.}},
-\bauthor{\bsnm{Morgenstern}, \binits{O.}}:
-\bbtitle{Theory of Games and Economic Behavior, 2nd Rev}.
-\bpublisher{Princeton University Press}, \blocation{???}
-(\byear{1947})
-\end{bbook}
-\endbibitem
-
-%%% 3
-\bibitem[\protect\citeauthoryear{Cesarini et~al.}{2017}]{cesarini2017effect}
-\begin{barticle}
-\bauthor{\bsnm{Cesarini}, \binits{D.}},
-\bauthor{\bsnm{Lindqvist}, \binits{E.}},
-\bauthor{\bsnm{Notowidigdo}, \binits{M.J.}},
-\bauthor{\bsnm{Östling}, \binits{R.}}:
-\batitle{The effect of wealth on individual and household labor supply:
-  Evidence from swedish lottery winners}.
-\bjtitle{American Economic Review}
-\bvolume{107}(\bissue{6}),
-\bfpage{1298}--\blpage{1331}
-(\byear{2017})
-\end{barticle}
-\endbibitem
-
-%%% 4
-\bibitem[\protect\citeauthoryear{Vanags et~al.}{2025}]{vanags2025greater}
-\begin{barticle}
-\bauthor{\bsnm{Vanags}, \binits{E.}},
-\bauthor{\bsnm{Cutler}, \binits{J.}},
-\bauthor{\bsnm{Kosse}, \binits{F.}},
-\bauthor{\bsnm{Lockwood}, \binits{P.}}:
-\batitle{Greater income and financial well-being are associated with higher
-  prosocial preferences and behaviors across 76 countries}.
-\bjtitle{{PNAS} Nexus}
-\bvolume{4}(\bissue{1}),
-\bfpage{003}
-(\byear{2025})
-\end{barticle}
-\endbibitem
-
-%%% 5
-\bibitem[\protect\citeauthoryear{Harvey and
-  Blake}{2022}]{harvey2022developmental}
-\begin{barticle}
-\bauthor{\bsnm{Harvey}, \binits{H.J.}},
-\bauthor{\bsnm{Blake}, \binits{P.R.}}:
-\batitle{Developmental risk sensitivity theory: The effects of socio-economic
-  status on children's risky gain and loss decisions}.
-\bjtitle{Proceedings of the Royal Society B}
-\bvolume{289}(\bissue{1976}),
-\bfpage{20220712}
-(\byear{2022})
-\end{barticle}
-\endbibitem
-
-%%% 6
 \bibitem[\protect\citeauthoryear{Sousa and
   Matsuzawa}{2001}]{sousaUseTokensRewards2001}
 \begin{barticle}
@@ -131,7 +72,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 7
+%%% 3
 \bibitem[\protect\citeauthoryear{Chen et~al.}{2006}]{chenHowBasicAre2006a}
 \begin{barticle}
 \bauthor{\bsnm{Chen}, \binits{M.K.}},
@@ -147,7 +88,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 4
 \bibitem[\protect\citeauthoryear{Addessi
   et~al.}{2020}]{addessiAreRootsHuman2020}
 \begin{barticle}
@@ -166,7 +107,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 5
 \bibitem[\protect\citeauthoryear{Beran and Parrish}{2021}]{beran2021non}
 \begin{barticle}
 \bauthor{\bsnm{Beran}, \binits{M.}},
@@ -181,7 +122,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 10
+%%% 6
 \bibitem[\protect\citeauthoryear{Leca and {others}}{2021}]{leca2021acquisition}
 \begin{barticle}
 \bauthor{\bsnm{Leca}, \binits{J.}}, \betal:
@@ -195,7 +136,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 11
+%%% 7
 \bibitem[\protect\citeauthoryear{Seo and Lee}{2009}]{seo2009behavioral}
 \begin{barticle}
 \bauthor{\bsnm{Seo}, \binits{H.}},
@@ -210,7 +151,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 12
+%%% 8
 \bibitem[\protect\citeauthoryear{Yang
   et~al.}{2022}]{yangPrimateAnteriorInsular2022c}
 \begin{barticle}
@@ -227,7 +168,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 13
+%%% 9
 \bibitem[\protect\citeauthoryear{Ferro
   et~al.}{2025}]{ferroAccumulationVirtualTokens2025a}
 \begin{botherref}
@@ -244,7 +185,7 @@ Neuroscience
 \end{botherref}
 \endbibitem
 
-%%% 14
+%%% 10
 \bibitem[\protect\citeauthoryear{Padoa-Schioppa and
   Assad}{2006}]{padoa-schioppaNeuronsOrbitofrontalCortex2006b}
 \begin{barticle}
@@ -259,7 +200,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 15
+%%% 11
 \bibitem[\protect\citeauthoryear{Padoa-Schioppa and
   Conen}{2017}]{padoa-schioppaOrbitofrontalCortexNeural2017}
 \begin{barticle}
@@ -274,7 +215,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 16
+%%% 12
 \bibitem[\protect\citeauthoryear{Rudebeck and
   Rich}{2018}]{rudebeckOrbitofrontalCortex2018}
 \begin{barticle}
@@ -289,7 +230,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 13
 \bibitem[\protect\citeauthoryear{Ballesta
   et~al.}{2020}]{ballestaValuesEncodedOrbitofrontal2020a}
 \begin{barticle}
@@ -307,7 +248,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 18
+%%% 14
 \bibitem[\protect\citeauthoryear{Ballesta
   et~al.}{2022}]{ballestaOrbitofrontalCortexContributes2022}
 \begin{barticle}
@@ -324,7 +265,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 19
+%%% 15
 \bibitem[\protect\citeauthoryear{Cai and
   Padoa-Schioppa}{2014}]{cai2014contributions}
 \begin{barticle}
@@ -339,7 +280,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 20
+%%% 16
 \bibitem[\protect\citeauthoryear{Lin and Lee}{2021}]{lin2021evidence}
 \begin{barticle}
 \bauthor{\bsnm{Lin}, \binits{Y.-L.}},
@@ -354,59 +295,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 21
-\bibitem[\protect\citeauthoryear{Hare
-  et~al.}{2009}]{hareSelfControlDecisionMakingInvolves2009}
-\begin{barticle}
-\bauthor{\bsnm{Hare}, \binits{T.A.}},
-\bauthor{\bsnm{Camerer}, \binits{C.F.}},
-\bauthor{\bsnm{Rangel}, \binits{A.}}:
-\batitle{Self-control in decision-making involves modulation of the {vmPFC}
-  valuation system}.
-\bjtitle{Science}
-\bvolume{324}(\bissue{5927}),
-\bfpage{646}--\blpage{648}
-(\byear{2009})
-\doiurl{10.1126/science.1168450}
-\end{barticle}
-\endbibitem
-
-%%% 22
-\bibitem[\protect\citeauthoryear{{McClure}
-  et~al.}{2004}]{mcclureSeparateNeuralSystems2004a}
-\begin{botherref}
-\oauthor{\bsnm{{McClure}}, \binits{S.M.}},
-\oauthor{\bsnm{Laibson}, \binits{D.I.}},
-\oauthor{\bsnm{Loewenstein}, \binits{G.}},
-\oauthor{\bsnm{Cohen}, \binits{J.D.}}:
-Separate neural systems value immediate and delayed monetary rewards.
-Science
-\textbf{306}
-(2004)
-\end{botherref}
-\endbibitem
-
-%%% 23
-\bibitem[\protect\citeauthoryear{Figner
-  et~al.}{2010}]{fignerLateralPrefrontalCortex2010a}
-\begin{barticle}
-\bauthor{\bsnm{Figner}, \binits{B.}},
-\bauthor{\bsnm{Knoch}, \binits{D.}},
-\bauthor{\bsnm{Johnson}, \binits{E.J.}},
-\bauthor{\bsnm{Krosch}, \binits{A.R.}},
-\bauthor{\bsnm{Lisanby}, \binits{S.H.}},
-\bauthor{\bsnm{Fehr}, \binits{E.}},
-\bauthor{\bsnm{Weber}, \binits{E.U.}}:
-\batitle{Lateral prefrontal cortex and self-control in intertemporal choice}.
-\bjtitle{Nature Neuroscience}
-\bvolume{13}(\bissue{5}),
-\bfpage{538}--\blpage{539}
-(\byear{2010})
-\doiurl{10.1038/nn.2516}
-\end{barticle}
-\endbibitem
-
-%%% 24
+%%% 17
 \bibitem[\protect\citeauthoryear{Hayden
   et~al.}{2011}]{haydenNeuronalBasisSequential2011a}
 \begin{barticle}
@@ -423,7 +312,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 18
 \bibitem[\protect\citeauthoryear{Amemori and
   Graybiel}{2012}]{amemoriLocalizedMicrostimulationPrimate2012a}
 \begin{barticle}
@@ -439,7 +328,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 26
+%%% 19
 \bibitem[\protect\citeauthoryear{Cai and
   Padoa-Schioppa}{2012}]{caiNeuronalEncodingSubjective2012}
 \begin{barticle}
@@ -455,7 +344,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 27
+%%% 20
 \bibitem[\protect\citeauthoryear{Kennerley
   et~al.}{2009}]{kennerleyNeuronsFrontalLobe2009b}
 \begin{barticle}
@@ -473,42 +362,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 28
-\bibitem[\protect\citeauthoryear{Prévost
-  et~al.}{2010}]{prevostSeparateValuationSubsystems2010b}
-\begin{barticle}
-\bauthor{\bsnm{Prévost}, \binits{C.}},
-\bauthor{\bsnm{Pessiglione}, \binits{M.}},
-\bauthor{\bsnm{Météreau}, \binits{E.}},
-\bauthor{\bsnm{Cléry-Melin}, \binits{M.-L.}},
-\bauthor{\bsnm{Dreher}, \binits{J.-C.}}:
-\batitle{Separate valuation subsystems for delay and effort decision costs}.
-\bjtitle{The Journal of Neuroscience}
-\bvolume{30}(\bissue{42}),
-\bfpage{14080}--\blpage{14090}
-(\byear{2010})
-\doiurl{10.1523/JNEUROSCI.2752-10.2010}
-\end{barticle}
-\endbibitem
-
-%%% 29
-\bibitem[\protect\citeauthoryear{Kolling
-  et~al.}{2012}]{kollingNeuralMechanismsForaging2012a}
-\begin{barticle}
-\bauthor{\bsnm{Kolling}, \binits{N.}},
-\bauthor{\bsnm{Behrens}, \binits{T.E.J.}},
-\bauthor{\bsnm{Mars}, \binits{R.B.}},
-\bauthor{\bsnm{Rushworth}, \binits{M.F.S.}}:
-\batitle{Neural mechanisms of foraging}.
-\bjtitle{Science}
-\bvolume{336}(\bissue{6077}),
-\bfpage{95}--\blpage{98}
-(\byear{2012})
-\doiurl{10.1126/science.1216930}
-\end{barticle}
-\endbibitem
-
-%%% 30
+%%% 21
 \bibitem[\protect\citeauthoryear{Juechems
   et~al.}{2017}]{juechemsVentromedialPrefrontalCortex2017}
 \begin{barticle}
@@ -526,7 +380,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 31
+%%% 22
 \bibitem[\protect\citeauthoryear{Nguyen and
   {others}}{2025}]{nguyenNeuralRepresentationDecisional2025a}
 \begin{barticle}
@@ -540,7 +394,38 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 32
+%%% 23
+\bibitem[\protect\citeauthoryear{Nieder and
+  Miller}{2003}]{niederMiller2003compressed}
+\begin{barticle}
+\bauthor{\bsnm{Nieder}, \binits{A.}},
+\bauthor{\bsnm{Miller}, \binits{E.K.}}:
+\batitle{Coding of cognitive magnitude: Compressed scaling of numerical
+  information in the primate prefrontal cortex}.
+\bjtitle{Neuron}
+\bvolume{37}(\bissue{1}),
+\bfpage{149}--\blpage{157}
+(\byear{2003})
+\doiurl{10.1016/S0896-6273(02)01144-3}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Nieder and
+  Dehaene}{2009}]{niederDehaene2009number}
+\begin{barticle}
+\bauthor{\bsnm{Nieder}, \binits{A.}},
+\bauthor{\bsnm{Dehaene}, \binits{S.}}:
+\batitle{Representation of number in the brain}.
+\bjtitle{Annual Review of Neuroscience}
+\bvolume{32},
+\bfpage{185}--\blpage{208}
+(\byear{2009})
+\doiurl{10.1146/annurev.neuro.051508.135550}
+\end{barticle}
+\endbibitem
+
+%%% 25
 \bibitem[\protect\citeauthoryear{Mante et~al.}{2013}]{mante2013context}
 \begin{barticle}
 \bauthor{\bsnm{Mante}, \binits{V.}},
@@ -556,7 +441,7 @@ Science
 \end{barticle}
 \endbibitem
 
-%%% 33
+%%% 26
 \bibitem[\protect\citeauthoryear{Deaner et~al.}{2005}]{deaner2005monkeys}
 \begin{barticle}
 \bauthor{\bsnm{Deaner}, \binits{R.O.}},
