@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{26}
+\begin{thebibliography}{23}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -44,6 +44,36 @@
 \csname PreBibitemsHook\endcsname
 
 %%% 1
+\bibitem[\protect\citeauthoryear{Stephens and
+  Krebs}{1986}]{stephens1986foraging}
+\begin{bbook}
+\bauthor{\bsnm{Stephens}, \binits{D.W.}},
+\bauthor{\bsnm{Krebs}, \binits{J.R.}}:
+\bbtitle{Foraging Theory}.
+\bpublisher{Princeton University Press},
+\blocation{Princeton, NJ}
+(\byear{1986}).
+\doiurl{10.1515/9780691206790}
+\end{bbook}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Hengeveld et~al.}{2009}]{hengeveld2009optimal}
+\begin{barticle}
+\bauthor{\bsnm{Hengeveld}, \binits{G.M.}},
+\bauthor{\bsnm{Langevelde}, \binits{F.}},
+\bauthor{\bsnm{Groen}, \binits{T.A.}},
+\bauthor{\bsnm{Knegt}, \binits{H.J.}}:
+\batitle{Optimal foraging for multiple resources in several food species}.
+\bjtitle{The American Naturalist}
+\bvolume{174}(\bissue{1}),
+\bfpage{102}--\blpage{110}
+(\byear{2009})
+\doiurl{10.1086/598500}
+\end{barticle}
+\endbibitem
+
+%%% 3
 \bibitem[\protect\citeauthoryear{Bernoulli}{1954}]{bernoulli1954exposition}
 \begin{barticle}
 \bauthor{\bsnm{Bernoulli}, \binits{D.}}:
@@ -56,7 +86,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 2
+%%% 4
 \bibitem[\protect\citeauthoryear{Sousa and
   Matsuzawa}{2001}]{sousaUseTokensRewards2001}
 \begin{barticle}
@@ -72,7 +102,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 3
+%%% 5
 \bibitem[\protect\citeauthoryear{Chen et~al.}{2006}]{chenHowBasicAre2006a}
 \begin{barticle}
 \bauthor{\bsnm{Chen}, \binits{M.K.}},
@@ -88,7 +118,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 4
+%%% 6
 \bibitem[\protect\citeauthoryear{Addessi
   et~al.}{2020}]{addessiAreRootsHuman2020}
 \begin{barticle}
@@ -107,7 +137,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 5
+%%% 7
 \bibitem[\protect\citeauthoryear{Beran and Parrish}{2021}]{beran2021non}
 \begin{barticle}
 \bauthor{\bsnm{Beran}, \binits{M.}},
@@ -122,7 +152,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 6
+%%% 8
 \bibitem[\protect\citeauthoryear{Leca and {others}}{2021}]{leca2021acquisition}
 \begin{barticle}
 \bauthor{\bsnm{Leca}, \binits{J.}}, \betal:
@@ -136,7 +166,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 7
+%%% 9
 \bibitem[\protect\citeauthoryear{Seo and Lee}{2009}]{seo2009behavioral}
 \begin{barticle}
 \bauthor{\bsnm{Seo}, \binits{H.}},
@@ -151,7 +181,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 10
 \bibitem[\protect\citeauthoryear{Yang
   et~al.}{2022}]{yangPrimateAnteriorInsular2022c}
 \begin{barticle}
@@ -168,7 +198,7 @@
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 11
 \bibitem[\protect\citeauthoryear{Ferro
   et~al.}{2025}]{ferroAccumulationVirtualTokens2025a}
 \begin{botherref}
@@ -185,184 +215,7 @@ Neuroscience
 \end{botherref}
 \endbibitem
 
-%%% 10
-\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
-  Assad}{2006}]{padoa-schioppaNeuronsOrbitofrontalCortex2006b}
-\begin{barticle}
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
-\bauthor{\bsnm{Assad}, \binits{J.A.}}:
-\batitle{Neurons in the orbitofrontal cortex encode economic value}.
-\bjtitle{Nature}
-\bvolume{441}(\bissue{7090}),
-\bfpage{223}--\blpage{226}
-(\byear{2006})
-\doiurl{10.1038/nature04676}
-\end{barticle}
-\endbibitem
-
-%%% 11
-\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
-  Conen}{2017}]{padoa-schioppaOrbitofrontalCortexNeural2017}
-\begin{barticle}
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
-\bauthor{\bsnm{Conen}, \binits{K.E.}}:
-\batitle{Orbitofrontal cortex: A neural circuit for economic decisions}.
-\bjtitle{Neuron}
-\bvolume{96}(\bissue{4}),
-\bfpage{736}--\blpage{754}
-(\byear{2017})
-\doiurl{10.1016/j.neuron.2017.09.031}
-\end{barticle}
-\endbibitem
-
 %%% 12
-\bibitem[\protect\citeauthoryear{Rudebeck and
-  Rich}{2018}]{rudebeckOrbitofrontalCortex2018}
-\begin{barticle}
-\bauthor{\bsnm{Rudebeck}, \binits{P.H.}},
-\bauthor{\bsnm{Rich}, \binits{E.L.}}:
-\batitle{Orbitofrontal cortex}.
-\bjtitle{Current Biology}
-\bvolume{28}(\bissue{18}),
-\bfpage{1083}--\blpage{1088}
-(\byear{2018})
-\doiurl{10.1016/j.cub.2018.07.018}
-\end{barticle}
-\endbibitem
-
-%%% 13
-\bibitem[\protect\citeauthoryear{Ballesta
-  et~al.}{2020}]{ballestaValuesEncodedOrbitofrontal2020a}
-\begin{barticle}
-\bauthor{\bsnm{Ballesta}, \binits{S.}},
-\bauthor{\bsnm{Shi}, \binits{W.}},
-\bauthor{\bsnm{Conen}, \binits{K.E.}},
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
-\batitle{Values encoded in orbitofrontal cortex are causally related to
-  economic choices}.
-\bjtitle{Nature}
-\bvolume{588}(\bissue{7838}),
-\bfpage{450}--\blpage{453}
-(\byear{2020})
-\doiurl{10.1038/s41586-020-2880-x}
-\end{barticle}
-\endbibitem
-
-%%% 14
-\bibitem[\protect\citeauthoryear{Ballesta
-  et~al.}{2022}]{ballestaOrbitofrontalCortexContributes2022}
-\begin{barticle}
-\bauthor{\bsnm{Ballesta}, \binits{S.}},
-\bauthor{\bsnm{Shi}, \binits{W.}},
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
-\batitle{Orbitofrontal cortex contributes to the comparison of values
-  underlying economic choices}.
-\bjtitle{Nature Communications}
-\bvolume{13}(\bissue{1}),
-\bfpage{4405}
-(\byear{2022})
-\doiurl{10.1038/s41467-022-32199-y}
-\end{barticle}
-\endbibitem
-
-%%% 15
-\bibitem[\protect\citeauthoryear{Cai and
-  Padoa-Schioppa}{2014}]{cai2014contributions}
-\begin{barticle}
-\bauthor{\bsnm{Cai}, \binits{X.}},
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
-\batitle{Contributions of orbitofrontal and lateral prefrontal cortices to
-  economic choice and the good-to-action transformation}.
-\bjtitle{Neuron}
-\bvolume{81}(\bissue{5}),
-\bfpage{1140}--\blpage{1151}
-(\byear{2014})
-\end{barticle}
-\endbibitem
-
-%%% 16
-\bibitem[\protect\citeauthoryear{Lin and Lee}{2021}]{lin2021evidence}
-\begin{barticle}
-\bauthor{\bsnm{Lin}, \binits{Y.-L.}},
-\bauthor{\bsnm{Lee}, \binits{D.}}:
-\batitle{Evidence accumulation for value computation in the prefrontal cortex
-  during decision making}.
-\bjtitle{Proceedings of the National Academy of Sciences}
-\bvolume{118}(\bissue{11}),
-\bfpage{2020291118}
-(\byear{2021})
-\doiurl{10.1073/pnas.2020291118}
-\end{barticle}
-\endbibitem
-
-%%% 17
-\bibitem[\protect\citeauthoryear{Hayden
-  et~al.}{2011}]{haydenNeuronalBasisSequential2011a}
-\begin{barticle}
-\bauthor{\bsnm{Hayden}, \binits{B.Y.}},
-\bauthor{\bsnm{Pearson}, \binits{J.M.}},
-\bauthor{\bsnm{Platt}, \binits{M.L.}}:
-\batitle{Neuronal basis of sequential foraging decisions in a patchy
-  environment}.
-\bjtitle{Nature Neuroscience}
-\bvolume{14}(\bissue{7}),
-\bfpage{933}--\blpage{939}
-(\byear{2011})
-\doiurl{10.1038/nn.2856}
-\end{barticle}
-\endbibitem
-
-%%% 18
-\bibitem[\protect\citeauthoryear{Amemori and
-  Graybiel}{2012}]{amemoriLocalizedMicrostimulationPrimate2012a}
-\begin{barticle}
-\bauthor{\bsnm{Amemori}, \binits{K.-i.}},
-\bauthor{\bsnm{Graybiel}, \binits{A.M.}}:
-\batitle{Localized microstimulation of primate pregenual cingulate cortex
-  induces negative decision-making}.
-\bjtitle{Nature Neuroscience}
-\bvolume{15}(\bissue{5}),
-\bfpage{776}--\blpage{785}
-(\byear{2012})
-\doiurl{10.1038/nn.3088}
-\end{barticle}
-\endbibitem
-
-%%% 19
-\bibitem[\protect\citeauthoryear{Cai and
-  Padoa-Schioppa}{2012}]{caiNeuronalEncodingSubjective2012}
-\begin{barticle}
-\bauthor{\bsnm{Cai}, \binits{X.}},
-\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
-\batitle{Neuronal encoding of subjective value in dorsal and ventral anterior
-  cingulate cortex}.
-\bjtitle{The Journal of Neuroscience}
-\bvolume{32}(\bissue{11}),
-\bfpage{3791}--\blpage{3808}
-(\byear{2012})
-\doiurl{10.1523/JNEUROSCI.3864-11.2012}
-\end{barticle}
-\endbibitem
-
-%%% 20
-\bibitem[\protect\citeauthoryear{Kennerley
-  et~al.}{2009}]{kennerleyNeuronsFrontalLobe2009b}
-\begin{barticle}
-\bauthor{\bsnm{Kennerley}, \binits{S.W.}},
-\bauthor{\bsnm{Dahmubed}, \binits{A.F.}},
-\bauthor{\bsnm{Lara}, \binits{A.H.}},
-\bauthor{\bsnm{Wallis}, \binits{J.D.}}:
-\batitle{Neurons in the frontal lobe encode the value of multiple decision
-  variables}.
-\bjtitle{Journal of Cognitive Neuroscience}
-\bvolume{21}(\bissue{6}),
-\bfpage{1162}--\blpage{1178}
-(\byear{2009})
-\doiurl{10.1162/jocn.2009.21100}
-\end{barticle}
-\endbibitem
-
-%%% 21
 \bibitem[\protect\citeauthoryear{Juechems
   et~al.}{2017}]{juechemsVentromedialPrefrontalCortex2017}
 \begin{barticle}
@@ -380,7 +233,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 22
+%%% 13
 \bibitem[\protect\citeauthoryear{Nguyen and
   {others}}{2025}]{nguyenNeuralRepresentationDecisional2025a}
 \begin{barticle}
@@ -394,7 +247,117 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 23
+%%% 14
+\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
+  Assad}{2006}]{padoa-schioppaNeuronsOrbitofrontalCortex2006b}
+\begin{barticle}
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
+\bauthor{\bsnm{Assad}, \binits{J.A.}}:
+\batitle{Neurons in the orbitofrontal cortex encode economic value}.
+\bjtitle{Nature}
+\bvolume{441}(\bissue{7090}),
+\bfpage{223}--\blpage{226}
+(\byear{2006})
+\doiurl{10.1038/nature04676}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Padoa-Schioppa and
+  Conen}{2017}]{padoa-schioppaOrbitofrontalCortexNeural2017}
+\begin{barticle}
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}},
+\bauthor{\bsnm{Conen}, \binits{K.E.}}:
+\batitle{Orbitofrontal cortex: A neural circuit for economic decisions}.
+\bjtitle{Neuron}
+\bvolume{96}(\bissue{4}),
+\bfpage{736}--\blpage{754}
+(\byear{2017})
+\doiurl{10.1016/j.neuron.2017.09.031}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Rudebeck and
+  Rich}{2018}]{rudebeckOrbitofrontalCortex2018}
+\begin{barticle}
+\bauthor{\bsnm{Rudebeck}, \binits{P.H.}},
+\bauthor{\bsnm{Rich}, \binits{E.L.}}:
+\batitle{Orbitofrontal cortex}.
+\bjtitle{Current Biology}
+\bvolume{28}(\bissue{18}),
+\bfpage{1083}--\blpage{1088}
+(\byear{2018})
+\doiurl{10.1016/j.cub.2018.07.018}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Ballesta
+  et~al.}{2020}]{ballestaValuesEncodedOrbitofrontal2020a}
+\begin{barticle}
+\bauthor{\bsnm{Ballesta}, \binits{S.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Conen}, \binits{K.E.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Values encoded in orbitofrontal cortex are causally related to
+  economic choices}.
+\bjtitle{Nature}
+\bvolume{588}(\bissue{7838}),
+\bfpage{450}--\blpage{453}
+(\byear{2020})
+\doiurl{10.1038/s41586-020-2880-x}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Ballesta
+  et~al.}{2022}]{ballestaOrbitofrontalCortexContributes2022}
+\begin{barticle}
+\bauthor{\bsnm{Ballesta}, \binits{S.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Orbitofrontal cortex contributes to the comparison of values
+  underlying economic choices}.
+\bjtitle{Nature Communications}
+\bvolume{13}(\bissue{1}),
+\bfpage{4405}
+(\byear{2022})
+\doiurl{10.1038/s41467-022-32199-y}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Cai and
+  Padoa-Schioppa}{2014}]{cai2014contributions}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{X.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Contributions of orbitofrontal and lateral prefrontal cortices to
+  economic choice and the good-to-action transformation}.
+\bjtitle{Neuron}
+\bvolume{81}(\bissue{5}),
+\bfpage{1140}--\blpage{1151}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Lin and Lee}{2021}]{lin2021evidence}
+\begin{barticle}
+\bauthor{\bsnm{Lin}, \binits{Y.-L.}},
+\bauthor{\bsnm{Lee}, \binits{D.}}:
+\batitle{Evidence accumulation for value computation in the prefrontal cortex
+  during decision making}.
+\bjtitle{Proceedings of the National Academy of Sciences}
+\bvolume{118}(\bissue{11}),
+\bfpage{2020291118}
+(\byear{2021})
+\doiurl{10.1073/pnas.2020291118}
+\end{barticle}
+\endbibitem
+
+%%% 21
 \bibitem[\protect\citeauthoryear{Nieder and
   Miller}{2003}]{niederMiller2003compressed}
 \begin{barticle}
@@ -410,7 +373,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 24
+%%% 22
 \bibitem[\protect\citeauthoryear{Nieder and
   Dehaene}{2009}]{niederDehaene2009number}
 \begin{barticle}
@@ -425,7 +388,7 @@ Neuroscience
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 23
 \bibitem[\protect\citeauthoryear{Mante et~al.}{2013}]{mante2013context}
 \begin{barticle}
 \bauthor{\bsnm{Mante}, \binits{V.}},
@@ -438,21 +401,6 @@ Neuroscience
 \bvolume{503}(\bissue{7474}),
 \bfpage{78}--\blpage{84}
 (\byear{2013})
-\end{barticle}
-\endbibitem
-
-%%% 26
-\bibitem[\protect\citeauthoryear{Deaner et~al.}{2005}]{deaner2005monkeys}
-\begin{barticle}
-\bauthor{\bsnm{Deaner}, \binits{R.O.}},
-\bauthor{\bsnm{Khera}, \binits{A.V.}},
-\bauthor{\bsnm{Platt}, \binits{M.L.}}:
-\batitle{Monkeys pay per view: adaptive valuation of social images by rhesus
-  macaques}.
-\bjtitle{Current biology}
-\bvolume{15}(\bissue{6}),
-\bfpage{543}--\blpage{548}
-(\byear{2005})
 \end{barticle}
 \endbibitem
 
