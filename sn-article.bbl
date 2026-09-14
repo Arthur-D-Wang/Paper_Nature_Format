@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{23}
+\begin{thebibliography}{27}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -194,7 +194,7 @@
 \bvolume{13},
 \bfpage{717}
 (\byear{2022})
-\doiurl{10.1038/s41467-022-28359-9}
+\doiurl{10.1038/s41467-022-28278-9}
 \end{barticle}
 \endbibitem
 
@@ -343,17 +343,20 @@ Neuroscience
 \endbibitem
 
 %%% 20
-\bibitem[\protect\citeauthoryear{Lin and Lee}{2021}]{lin2021evidence}
+\bibitem[\protect\citeauthoryear{Lin et~al.}{2020}]{lin2021evidence}
 \begin{barticle}
-\bauthor{\bsnm{Lin}, \binits{Y.-L.}},
-\bauthor{\bsnm{Lee}, \binits{D.}}:
+\bauthor{\bsnm{Lin}, \binits{Z.}},
+\bauthor{\bsnm{Nie}, \binits{C.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Chen}, \binits{Y.}},
+\bauthor{\bsnm{Yang}, \binits{T.}}:
 \batitle{Evidence accumulation for value computation in the prefrontal cortex
   during decision making}.
 \bjtitle{Proceedings of the National Academy of Sciences}
-\bvolume{118}(\bissue{11}),
-\bfpage{2020291118}
-(\byear{2021})
-\doiurl{10.1073/pnas.2020291118}
+\bvolume{117}(\bissue{48}),
+\bfpage{30728}--\blpage{30737}
+(\byear{2020})
+\doiurl{10.1073/pnas.2019077117}
 \end{barticle}
 \endbibitem
 
@@ -401,6 +404,70 @@ Neuroscience
 \bvolume{503}(\bissue{7474}),
 \bfpage{78}--\blpage{84}
 (\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Hern{\'a}di
+  et~al.}{2015}]{hernadi2015planning}
+\begin{barticle}
+\bauthor{\bsnm{Hern{\'a}di}, \binits{I.}},
+\bauthor{\bsnm{Grabenhorst}, \binits{F.}},
+\bauthor{\bsnm{Schultz}, \binits{W.}}:
+\batitle{Planning activity for internally generated reward goals in monkey
+  amygdala neurons}.
+\bjtitle{Nature Neuroscience}
+\bvolume{18}(\bissue{3}),
+\bfpage{461}--\blpage{469}
+(\byear{2015})
+\doiurl{10.1038/nn.3925}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Ballesta and
+  Padoa-Schioppa}{2019}]{ballesta2019inhibition}
+\begin{barticle}
+\bauthor{\bsnm{Ballesta}, \binits{S.}},
+\bauthor{\bsnm{Padoa-Schioppa}, \binits{C.}}:
+\batitle{Economic decisions through circuit inhibition}.
+\bjtitle{Current Biology}
+\bvolume{29}(\bissue{22}),
+\bfpage{3814}--\blpage{38245}
+(\byear{2019})
+\doiurl{10.1016/j.cub.2019.09.027}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{McGinty et~al.}{2016}]{mcginty2016fixation}
+\begin{barticle}
+\bauthor{\bsnm{McGinty}, \binits{V.B.}},
+\bauthor{\bsnm{Rangel}, \binits{A.}},
+\bauthor{\bsnm{Newsome}, \binits{W.T.}}:
+\batitle{Orbitofrontal cortex value signals depend on fixation location during
+  free viewing}.
+\bjtitle{Neuron}
+\bvolume{90}(\bissue{6}),
+\bfpage{1299}--\blpage{1311}
+(\byear{2016})
+\doiurl{10.1016/j.neuron.2016.04.045}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Schuck et~al.}{2016}]{schuck2016state}
+\begin{barticle}
+\bauthor{\bsnm{Schuck}, \binits{N.W.}},
+\bauthor{\bsnm{Cai}, \binits{M.B.}},
+\bauthor{\bsnm{Wilson}, \binits{R.C.}},
+\bauthor{\bsnm{Niv}, \binits{Y.}}:
+\batitle{Human orbitofrontal cortex represents a cognitive map of state space}.
+\bjtitle{Neuron}
+\bvolume{91}(\bissue{6}),
+\bfpage{1402}--\blpage{1412}
+(\byear{2016})
+\doiurl{10.1016/j.neuron.2016.08.019}
 \end{barticle}
 \endbibitem
 
