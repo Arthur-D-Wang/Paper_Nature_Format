@@ -1,0 +1,17 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+sn-article.pdf
+sn-article_sample.*
+# Local exports
+*Overleaf*.zip
+.DS_Store
